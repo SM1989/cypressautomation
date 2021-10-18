@@ -1,0 +1,7 @@
+{
+    "UserName":"div:nth-child(2) > input",
+    "Password":"div:nth-child(4) > input",
+    "LoginButton":"div:nth-child(5) > input",
+    "Register":"p:nth-child(3) > a",
+    "Title": "h1.title"
+}

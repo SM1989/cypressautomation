@@ -1,0 +1,12 @@
+{
+    "FirstName": "Test",
+    "LastName": "User",
+    "Address": "Test123",
+    "City": "Dubai",
+    "State": "Dubai",
+    "ZipCode": "4545",
+    "Phone": "509821324",
+    "SSN": "489-36-8350",
+    "Password": "Test@123",
+    "Confirm": "Test@123"
+  }

@@ -1,0 +1,39 @@
+Cypress—>
+1. Next Gen open-source Frontend + Backend Testing tool
+2. It uses Javascript and works very well with angular js or react websites.
+3. Built on node.js and comes packaged as npm module
+4. 90% of the coding can be done with cypress inbuilt command
+5. Faster, easier and reliable scripts
+6. Automatic wait Time. Not sync issue problem
+7. Folder Structure is created by default by Cypress.
+
+
+Selenium Architecture — Scripts talks to the Browser Drivers(Chromedriver, Gecko Driver etc)— and then the drivers talk to the actual Browsers. We are not directly operating with the driver.
+Cypress Architecture — There is no middle layer. The cypress engine operates inside the browser. So the Browser is executing the Test code. That is why it is very fast.
+
+
+Installation—>
+1. Download node and npm
+2. Create Cypress working folder
+3. Generate package.json (from the folder—npm init—package name —all other details—it will generate the package.json)
+4. Install Cypress (npm install cypress --save-dev)
+5. Download Visual Studio Code editor
+
+Cypress Mochawesome Dependencies—>
+1. npm install --save-dev mochawesome
+2. npm install mochawesome-merge --save-dev
+3. npm install -g mochawesome-report-generator
+
+Silent Features of the Framework::-
+Behavior Driver Development
+Page Object Model Design Pattern
+Separate Data Files and Common Utilities are Used inside fixtures and in command.js respectivelly.
+Registration and Login Functionalities are Scripted
+
+
+
+Commands--->
+BDD UI —> 
+npx cypress-tags run -e  run -e TAGS='@automation' --headed --browser chrome
+npx cypress-tags run -e  run -e TAGS='@automation' --headed --browser chrome --env baseUrl="https://parabank.parasoft.com/parabank/index.htm"
+npm run final_report

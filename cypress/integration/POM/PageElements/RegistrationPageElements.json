@@ -1,0 +1,15 @@
+{
+    "FirstName":"input[id*='customer.firstName']",
+    "LastName":"input[id*='customer.lastName']",
+    "Address":"input[id*='customer.address.street']",
+    "City":"input[id*='customer.address.city']",
+    "State":"input[id*='customer.address.state']",
+    "ZipCode":"input[id*='customer.address.zipCode']",
+    "Phone":"input[id*='customer.phoneNumber']",
+    "Ssn":"input[id*='customer.ssn']",
+    "Username":"input[id*='customer.username']",
+    "Password":"input[id*='customer.password']",
+    "Confirm":"input[id*='repeatedPassword']",
+    "Register":"input[value*='Register']",
+    "SuccessMessage":"h1.title"
+}

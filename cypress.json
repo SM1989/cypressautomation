@@ -1,0 +1,25 @@
+{"pageLoadTimeout" : 20000,
+    "defaultCommandTimeout" : 20000,
+   "execTimeout" : 20000,
+   "requestTimeout" : 20000,
+   "responseTimeout" : 20000,
+   "viewportWidth": 1400,
+   "viewportHeight": 1000,
+   
+   "reporter" : "mochawesome",
+   "reporterOptions" : {
+       "reportDir" : "cypress/reports",
+       "reportFilename" : "report",
+       "overwrite" : false,
+       "html" : true,
+       "json" : true,
+       "charts" : true
+   },
+   "video" : false,
+   "env":{
+   "baseUrl" : "https://parabank.parasoft.com/parabank/index.htm",
+   "mobileViewportWidthBreakpoint": 414,
+   "tabletViewportWidthBreakpoint": 768
+   },
+   "testFiles": "**/FeaturesAndStepDefinition/*.feature"
+   }
