@@ -13,15 +13,24 @@
   "author": "Saurabh",
   "license": "ISC",
   "devDependencies": {
+    "cucumber-html-reporter": "^5.5.0",
     "cypress": "^8.5.0",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
     "cypress-cucumber-preprocessor": "^4.3.0",
     "jest": "^27.2.5",
     "mochawesome": "^6.3.1",
     "mochawesome-merge": "^4.2.0",
-    "mochawesome-report-generator": "5.2.0"
+    "mochawesome-report-generator": "5.2.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   },
   "dependencies": {
     "yargs": "^16.2.0"

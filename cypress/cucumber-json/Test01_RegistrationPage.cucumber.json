@@ -1,0 +1,81 @@
+[
+  {
+    "description": "Registration Verification",
+    "keyword": "Feature",
+    "name": "Registration Page Verification",
+    "line": 2,
+    "id": "registration-page-verification",
+    "tags": [
+      {
+        "name": "@registration",
+        "line": 1
+      },
+      {
+        "name": "@automation",
+        "line": 1
+      }
+    ],
+    "uri": "Test01_RegistrationPage.feature",
+    "elements": [
+      {
+        "id": "registration-page-verification;verification-of-sucessfull-registration",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verification of Sucessfull Registration",
+        "tags": [
+          {
+            "name": "@registration",
+            "line": 1
+          },
+          {
+            "name": "@automation",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to the Home page",
+            "result": {
+              "status": "passed",
+              "duration": 11536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I clicked on the Register option",
+            "result": {
+              "status": "passed",
+              "duration": 1585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I filled the registration form with valid data",
+            "result": {
+              "status": "passed",
+              "duration": 5529000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verified the registration",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

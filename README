@@ -37,3 +37,4 @@ BDD UI —>
 npx cypress-tags run -e  run -e TAGS='@automation' --headed --browser chrome
 npx cypress-tags run -e  run -e TAGS='@automation' --headed --browser chrome --env baseUrl="https://parabank.parasoft.com/parabank/index.htm"
 npm run final_report
+node cypress\cucumber-html-report.js (Optional:: To generate the Cucumber report)
