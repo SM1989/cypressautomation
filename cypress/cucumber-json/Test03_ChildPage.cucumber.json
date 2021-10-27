@@ -1,0 +1,51 @@
+[
+  {
+    "description": "Child window Verification",
+    "keyword": "Feature",
+    "name": "Child window Verification",
+    "line": 2,
+    "id": "child-window-verification",
+    "tags": [
+      {
+        "name": "@child",
+        "line": 1
+      },
+      {
+        "name": "@automation",
+        "line": 1
+      }
+    ],
+    "uri": "Test03_ChildPage.feature",
+    "elements": [
+      {
+        "id": "child-window-verification;verification-of-sucessfull-navigation-to-the-child-window",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verification of Sucessfull navigation to the Child Window",
+        "tags": [
+          {
+            "name": "@child",
+            "line": 1
+          },
+          {
+            "name": "@automation",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to the child window",
+            "result": {
+              "status": "passed",
+              "duration": 7949000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

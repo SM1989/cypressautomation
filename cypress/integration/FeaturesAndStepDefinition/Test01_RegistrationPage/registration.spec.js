@@ -16,7 +16,7 @@ And('I clicked on the Register option',()=>{
 
 And('I filled the registration form with valid data',()=>{
     register.registerUser()
-    cy.log('Clicked on the Register option')
+    cy.log('Registrtion form filled')
 })
 
 Then('I verified the registration',()=>{

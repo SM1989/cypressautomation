@@ -28,11 +28,11 @@ registerUser(){
         cy.wrap($el).as('randomUserName');
         cy.setUsername($el);
         })
-        
+       
 }
 
 sucessMessage(){
-    cy.get(locatorsRegister.SuccessMessage).should('be.visible')
+    cy.get(locatorsRegister.SuccessMessage).should('be.visible') 
     cy.get('@randomUserName').then(randomUserName => {
         cy.get(locatorsRegister.SuccessMessage).should('contain.text', randomUserName)
         })

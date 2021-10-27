@@ -41,7 +41,7 @@
             "name": "I navigate to the Home page",
             "result": {
               "status": "passed",
-              "duration": 11536000000
+              "duration": 6940000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "I clicked on the Register option",
             "result": {
               "status": "passed",
-              "duration": 1585000000
+              "duration": 1233000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "I filled the registration form with valid data",
             "result": {
               "status": "passed",
-              "duration": 5529000000
+              "duration": 4853000000
             }
           },
           {
@@ -71,7 +71,7 @@
             "name": "I verified the registration",
             "result": {
               "status": "passed",
-              "duration": 34000000
+              "duration": 32000000
             }
           }
         ]

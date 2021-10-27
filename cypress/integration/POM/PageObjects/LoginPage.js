@@ -23,9 +23,26 @@ login(){
 }
 
 sucessMessage(){
+    //New Code-Start
+    cy.get('td:nth-child(2) > b.ng-binding').then(($el) => {
+        console.log('Price --> '+$el.text())
+        console.log('Price splitted --> '+$el.text().split('$')[0].split('.')[1])
+    })
+    //New Code-Ends
     cy.get(locators.Title).should('be.visible')
     cy.get(locators.Title).should('contain.text', DataFile.Message)
 }
+
+childWindow(){
+    cy.get(locators.childWindowFooter).should('be.visible')
+    cy.get(locators.childWindowFooter).then(function(cw){
+        const txt = cw.prop('href');
+        cy.log('Child Window URL -----> '+txt);
+        //cy.visit(txt);
+        cy.setField(txt);
+     })
+}
+
    
 }
 export default Login

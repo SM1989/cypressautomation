@@ -22,3 +22,8 @@ Then('I verified the sucessfull login',()=>{
     cy.log('Verified the Login')
 })
 
+Then('I verified the child window',()=>{
+    login.childWindow()
+    cy.log('Verified the Child Window')
+})
+

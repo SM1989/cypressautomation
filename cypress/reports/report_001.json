@@ -2,14 +2,14 @@
   "stats": {
     "suites": 1,
     "tests": 1,
-    "passes": 0,
+    "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2021-10-19T10:57:58.959Z",
-    "end": "2021-10-19T10:58:31.235Z",
-    "duration": 32276,
+    "failures": 0,
+    "start": "2021-10-27T06:32:00.617Z",
+    "end": "2021-10-27T06:32:10.495Z",
+    "duration": 9878,
     "testsRegistered": 1,
-    "passPercent": 0,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "e5b21263-2f6a-4134-b8d4-a07f325070de",
+      "uuid": "b3ca0bd9-3b83-42a9-ab76-4be962fedd29",
       "title": "",
       "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test02_LoginPage.feature",
       "file": "cypress/integration/FeaturesAndStepDefinition/Test02_LoginPage.feature",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e6a66645-9038-4434-bb0a-e5dae077d0b2",
+          "uuid": "b021720c-205a-4ffa-9551-4a0a17b5aa97",
           "title": "Login Page Verification",
           "fullFile": "",
           "file": "",
@@ -38,33 +38,29 @@
               "title": "Verification of Sucessfull Login",
               "fullTitle": "Login Page Verification Verification of Sucessfull Login",
               "timedOut": null,
-              "duration": 26863,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
+              "duration": 7110,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
               "pending": false,
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
-              "err": {
-                "message": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `h1.titlee`, but never found it.",
-                "estack": "AssertionError: Timed out retrying after 20000ms: Expected to find element: `h1.titlee`, but never found it.\n    at Login.sucessMessage (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\FeaturesAndStepDefinition\\Test02_LoginPage.feature:115:30)\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\FeaturesAndStepDefinition\\Test02_LoginPage.feature:57:9)\n    at Context.resolveAndRunStepDefinition (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\FeaturesAndStepDefinition\\Test02_LoginPage.feature:12438:29)\n    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\\integration\\FeaturesAndStepDefinition\\Test02_LoginPage.feature:11759:35)",
-                "diff": null
-              },
-              "uuid": "6b1899ed-f4b9-4cfd-bb0b-617bd5f7163e",
-              "parentUUID": "e6a66645-9038-4434-bb0a-e5dae077d0b2",
+              "err": {},
+              "uuid": "5f4a861d-d4f4-4493-9d1b-30f4f43e8397",
+              "parentUUID": "b021720c-205a-4ffa-9551-4a0a17b5aa97",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
-          "passes": [],
-          "failures": [
-            "6b1899ed-f4b9-4cfd-bb0b-617bd5f7163e"
+          "passes": [
+            "5f4a861d-d4f4-4493-9d1b-30f4f43e8397"
           ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 26863,
+          "duration": 7110,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

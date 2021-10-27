@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-27T06:31:39.522Z",
-    "end": "2021-10-27T06:31:55.819Z",
-    "duration": 16297,
+    "start": "2021-10-27T06:32:14.850Z",
+    "end": "2021-10-27T06:32:26.411Z",
+    "duration": 11561,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,27 +18,27 @@
   },
   "results": [
     {
-      "uuid": "2d9dcbe3-a865-41e8-92ae-0689fe55bd9d",
+      "uuid": "d864aaab-c7a9-453f-bc3a-34e67ed843a2",
       "title": "",
-      "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test01_RegistrationPage.feature",
-      "file": "cypress/integration/FeaturesAndStepDefinition/Test01_RegistrationPage.feature",
+      "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test03_ChildPage.feature",
+      "file": "cypress/integration/FeaturesAndStepDefinition/Test03_ChildPage.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "a8036964-4b2d-49b1-a3f3-ec8fc7925b5b",
-          "title": "Registration Page Verification",
+          "uuid": "bbdf5d84-8b3d-47bc-b29e-dde99bb7e5be",
+          "title": "Child window Verification",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Verification of Sucessfull Registration",
-              "fullTitle": "Registration Page Verification Verification of Sucessfull Registration",
+              "title": "Verification of Sucessfull navigation to the Child Window",
+              "fullTitle": "Child window Verification Verification of Sucessfull navigation to the Child Window",
               "timedOut": null,
-              "duration": 13032,
+              "duration": 7928,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "ed8978d9-2c77-4f4c-8e3e-66f289a3949a",
-              "parentUUID": "a8036964-4b2d-49b1-a3f3-ec8fc7925b5b",
+              "uuid": "6d195ab3-254b-4f49-96cc-116727d7a828",
+              "parentUUID": "bbdf5d84-8b3d-47bc-b29e-dde99bb7e5be",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ed8978d9-2c77-4f4c-8e3e-66f289a3949a"
+            "6d195ab3-254b-4f49-96cc-116727d7a828"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 13032,
+          "duration": 7928,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

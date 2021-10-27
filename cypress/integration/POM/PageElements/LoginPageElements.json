@@ -3,5 +3,6 @@
     "Password":"div:nth-child(4) > input",
     "LoginButton":"div:nth-child(5) > input",
     "Register":"p:nth-child(3) > a",
-    "Title": "h1.title"
+    "Title": "h1.title",
+    "childWindowFooter":"ul.visit > li:nth-child(2) > a"
 }

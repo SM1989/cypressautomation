@@ -50,3 +50,16 @@ function setUsername(arg){
 })
 }
 Cypress.Commands.add('setUsername', setUsername)
+
+
+function setField(arg){
+  cy.readFile("cypress/fixtures/commonData.json", (err, data) => {
+    if (err) {
+        return console.error(err);
+    };
+}).then((data) => {
+    data.childWindowURL = arg;
+    cy.writeFile("cypress/fixtures/commonData.json", JSON.stringify(data))
+})
+}
+Cypress.Commands.add('setField', setField)
