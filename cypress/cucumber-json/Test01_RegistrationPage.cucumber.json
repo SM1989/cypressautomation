@@ -1,10 +1,10 @@
 [
   {
-    "description": "Registration Verification",
+    "description": "    Registration Verification",
     "keyword": "Feature",
-    "name": "Registration Page Verification",
+    "name": "UI - Registration Page Verification",
     "line": 2,
-    "id": "registration-page-verification",
+    "id": "ui---registration-page-verification",
     "tags": [
       {
         "name": "@registration",
@@ -18,10 +18,10 @@
     "uri": "Test01_RegistrationPage.feature",
     "elements": [
       {
-        "id": "registration-page-verification;verification-of-sucessfull-registration",
+        "id": "ui---registration-page-verification;ui---verification-of-sucessfull-registration",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Verification of Sucessfull Registration",
+        "name": "UI - Verification of Sucessfull Registration",
         "tags": [
           {
             "name": "@registration",
@@ -41,7 +41,7 @@
             "name": "I navigate to the Home page",
             "result": {
               "status": "passed",
-              "duration": 6940000000
+              "duration": 6995000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "I clicked on the Register option",
             "result": {
               "status": "passed",
-              "duration": 1233000000
+              "duration": 1678000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "I filled the registration form with valid data",
             "result": {
               "status": "passed",
-              "duration": 4853000000
+              "duration": 4743000000
             }
           },
           {
@@ -71,7 +71,7 @@
             "name": "I verified the registration",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 34000000
             }
           }
         ]

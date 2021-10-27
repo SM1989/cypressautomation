@@ -1,6 +1,6 @@
 @child @automation
-Feature: Child window Verification
-Child window Verification
+Feature: UI - Child window Verification
+    Child window Verification
 
-Scenario: Verification of Sucessfull navigation to the Child Window
-Given I navigate to the child window
+    Scenario: UI - Verification of Sucessfull navigation to the Child Window
+        Given I navigate to the child window

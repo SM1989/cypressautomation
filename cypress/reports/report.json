@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-27T06:31:39.522Z",
-    "end": "2021-10-27T06:31:55.819Z",
-    "duration": 16297,
+    "start": "2021-10-27T13:14:51.049Z",
+    "end": "2021-10-27T13:15:15.377Z",
+    "duration": 24328,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2d9dcbe3-a865-41e8-92ae-0689fe55bd9d",
+      "uuid": "46d00ac1-0e82-4110-bb23-6460688c5ce7",
       "title": "",
       "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test01_RegistrationPage.feature",
       "file": "cypress/integration/FeaturesAndStepDefinition/Test01_RegistrationPage.feature",
@@ -27,18 +27,18 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "a8036964-4b2d-49b1-a3f3-ec8fc7925b5b",
-          "title": "Registration Page Verification",
+          "uuid": "57ab5e7a-6fba-41fa-8ec0-7a8022461338",
+          "title": "UI - Registration Page Verification",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Verification of Sucessfull Registration",
-              "fullTitle": "Registration Page Verification Verification of Sucessfull Registration",
+              "title": "UI - Verification of Sucessfull Registration",
+              "fullTitle": "UI - Registration Page Verification UI - Verification of Sucessfull Registration",
               "timedOut": null,
-              "duration": 13032,
+              "duration": 13426,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "ed8978d9-2c77-4f4c-8e3e-66f289a3949a",
-              "parentUUID": "a8036964-4b2d-49b1-a3f3-ec8fc7925b5b",
+              "uuid": "1faaf62d-ddc3-4083-aa22-6eabb41cbded",
+              "parentUUID": "57ab5e7a-6fba-41fa-8ec0-7a8022461338",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ed8978d9-2c77-4f4c-8e3e-66f289a3949a"
+            "1faaf62d-ddc3-4083-aa22-6eabb41cbded"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 13032,
+          "duration": 13426,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

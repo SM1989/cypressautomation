@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-27T06:32:14.850Z",
-    "end": "2021-10-27T06:32:26.411Z",
-    "duration": 11561,
+    "start": "2021-10-27T13:15:34.972Z",
+    "end": "2021-10-27T13:15:45.933Z",
+    "duration": 10961,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d864aaab-c7a9-453f-bc3a-34e67ed843a2",
+      "uuid": "755c194f-4f1a-4c73-a482-5fc75172c4b9",
       "title": "",
       "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test03_ChildPage.feature",
       "file": "cypress/integration/FeaturesAndStepDefinition/Test03_ChildPage.feature",
@@ -27,18 +27,18 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bbdf5d84-8b3d-47bc-b29e-dde99bb7e5be",
-          "title": "Child window Verification",
+          "uuid": "757ff8bd-16a7-4f40-9b83-93943216f4e5",
+          "title": "UI - Child window Verification",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Verification of Sucessfull navigation to the Child Window",
-              "fullTitle": "Child window Verification Verification of Sucessfull navigation to the Child Window",
+              "title": "UI - Verification of Sucessfull navigation to the Child Window",
+              "fullTitle": "UI - Child window Verification UI - Verification of Sucessfull navigation to the Child Window",
               "timedOut": null,
-              "duration": 7928,
+              "duration": 6586,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "6d195ab3-254b-4f49-96cc-116727d7a828",
-              "parentUUID": "bbdf5d84-8b3d-47bc-b29e-dde99bb7e5be",
+              "uuid": "189c66a4-d7b1-4803-98c3-9ac0fd4f69cb",
+              "parentUUID": "757ff8bd-16a7-4f40-9b83-93943216f4e5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6d195ab3-254b-4f49-96cc-116727d7a828"
+            "189c66a4-d7b1-4803-98c3-9ac0fd4f69cb"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7928,
+          "duration": 6586,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -1,14 +1,14 @@
 {
   "stats": {
-    "suites": 3,
-    "tests": 3,
-    "passes": 3,
+    "suites": 4,
+    "tests": 5,
+    "passes": 5,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-27T06:31:39.522Z",
-    "end": "2021-10-27T06:32:26.411Z",
-    "duration": 28070,
-    "testsRegistered": 3,
+    "start": "2021-10-27T13:14:51.049Z",
+    "end": "2021-10-27T13:15:52.565Z",
+    "duration": 28582,
+    "testsRegistered": 5,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b3ca0bd9-3b83-42a9-ab76-4be962fedd29",
+      "uuid": "53acc84a-0ecc-41ce-8543-edeb54d4525e",
       "title": "",
       "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test02_LoginPage.feature",
       "file": "cypress/integration/FeaturesAndStepDefinition/Test02_LoginPage.feature",
@@ -27,18 +27,18 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b021720c-205a-4ffa-9551-4a0a17b5aa97",
-          "title": "Login Page Verification",
+          "uuid": "7a9b64bf-38de-47c6-a487-0fd1848cb3d7",
+          "title": "UI - Login Page Verification",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Verification of Sucessfull Login",
-              "fullTitle": "Login Page Verification Verification of Sucessfull Login",
+              "title": "UI - Verification of Sucessfull Login",
+              "fullTitle": "UI - Login Page Verification UI - Verification of Sucessfull Login",
               "timedOut": null,
-              "duration": 7110,
+              "duration": 6593,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "5f4a861d-d4f4-4493-9d1b-30f4f43e8397",
-              "parentUUID": "b021720c-205a-4ffa-9551-4a0a17b5aa97",
+              "uuid": "9dae2786-eb96-4654-9c3e-9bcf26b6c1cb",
+              "parentUUID": "7a9b64bf-38de-47c6-a487-0fd1848cb3d7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5f4a861d-d4f4-4493-9d1b-30f4f43e8397"
+            "9dae2786-eb96-4654-9c3e-9bcf26b6c1cb"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7110,
+          "duration": 6593,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -76,7 +76,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "d864aaab-c7a9-453f-bc3a-34e67ed843a2",
+      "uuid": "755c194f-4f1a-4c73-a482-5fc75172c4b9",
       "title": "",
       "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test03_ChildPage.feature",
       "file": "cypress/integration/FeaturesAndStepDefinition/Test03_ChildPage.feature",
@@ -85,18 +85,18 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "bbdf5d84-8b3d-47bc-b29e-dde99bb7e5be",
-          "title": "Child window Verification",
+          "uuid": "757ff8bd-16a7-4f40-9b83-93943216f4e5",
+          "title": "UI - Child window Verification",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Verification of Sucessfull navigation to the Child Window",
-              "fullTitle": "Child window Verification Verification of Sucessfull navigation to the Child Window",
+              "title": "UI - Verification of Sucessfull navigation to the Child Window",
+              "fullTitle": "UI - Child window Verification UI - Verification of Sucessfull navigation to the Child Window",
               "timedOut": null,
-              "duration": 7928,
+              "duration": 6586,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -105,20 +105,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "6d195ab3-254b-4f49-96cc-116727d7a828",
-              "parentUUID": "bbdf5d84-8b3d-47bc-b29e-dde99bb7e5be",
+              "uuid": "189c66a4-d7b1-4803-98c3-9ac0fd4f69cb",
+              "parentUUID": "757ff8bd-16a7-4f40-9b83-93943216f4e5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6d195ab3-254b-4f49-96cc-116727d7a828"
+            "189c66a4-d7b1-4803-98c3-9ac0fd4f69cb"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7928,
+          "duration": 6586,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -134,27 +134,27 @@
       "_timeout": 2000
     },
     {
-      "uuid": "2d9dcbe3-a865-41e8-92ae-0689fe55bd9d",
+      "uuid": "d654c2a8-29c9-440c-8714-f31e702ad392",
       "title": "",
-      "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test01_RegistrationPage.feature",
-      "file": "cypress/integration/FeaturesAndStepDefinition/Test01_RegistrationPage.feature",
+      "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test04_API_UsersGet.feature",
+      "file": "cypress/integration/FeaturesAndStepDefinition/Test04_API_UsersGet.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "a8036964-4b2d-49b1-a3f3-ec8fc7925b5b",
-          "title": "Registration Page Verification",
+          "uuid": "2f063787-dadc-49e3-b6f2-aa857e12b776",
+          "title": "API - Get Request for Users Verification",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Verification of Sucessfull Registration",
-              "fullTitle": "Registration Page Verification Verification of Sucessfull Registration",
+              "title": "API - Verification of Get Request for Users",
+              "fullTitle": "API - Get Request for Users Verification API - Verification of Get Request for Users",
               "timedOut": null,
-              "duration": 13032,
+              "duration": 654,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -163,20 +163,97 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "ed8978d9-2c77-4f4c-8e3e-66f289a3949a",
-              "parentUUID": "a8036964-4b2d-49b1-a3f3-ec8fc7925b5b",
+              "uuid": "f0e40d78-7e45-4396-97e3-dbe83739a222",
+              "parentUUID": "2f063787-dadc-49e3-b6f2-aa857e12b776",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "API - Verification of Post Request for Users",
+              "fullTitle": "API - Get Request for Users Verification API - Verification of Post Request for Users",
+              "timedOut": null,
+              "duration": 1323,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "cf8444be-e0e5-481b-84d5-246a6833e829",
+              "parentUUID": "2f063787-dadc-49e3-b6f2-aa857e12b776",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ed8978d9-2c77-4f4c-8e3e-66f289a3949a"
+            "f0e40d78-7e45-4396-97e3-dbe83739a222",
+            "cf8444be-e0e5-481b-84d5-246a6833e829"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 13032,
+          "duration": 1977,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "46d00ac1-0e82-4110-bb23-6460688c5ce7",
+      "title": "",
+      "fullFile": "cypress/integration/FeaturesAndStepDefinition/Test01_RegistrationPage.feature",
+      "file": "cypress/integration/FeaturesAndStepDefinition/Test01_RegistrationPage.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "57ab5e7a-6fba-41fa-8ec0-7a8022461338",
+          "title": "UI - Registration Page Verification",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "UI - Verification of Sucessfull Registration",
+              "fullTitle": "UI - Registration Page Verification UI - Verification of Sucessfull Registration",
+              "timedOut": null,
+              "duration": 13426,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "1faaf62d-ddc3-4083-aa22-6eabb41cbded",
+              "parentUUID": "57ab5e7a-6fba-41fa-8ec0-7a8022461338",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1faaf62d-ddc3-4083-aa22-6eabb41cbded"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13426,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

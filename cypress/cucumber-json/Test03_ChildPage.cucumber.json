@@ -1,10 +1,10 @@
 [
   {
-    "description": "Child window Verification",
+    "description": "    Child window Verification",
     "keyword": "Feature",
-    "name": "Child window Verification",
+    "name": "UI - Child window Verification",
     "line": 2,
-    "id": "child-window-verification",
+    "id": "ui---child-window-verification",
     "tags": [
       {
         "name": "@child",
@@ -18,10 +18,10 @@
     "uri": "Test03_ChildPage.feature",
     "elements": [
       {
-        "id": "child-window-verification;verification-of-sucessfull-navigation-to-the-child-window",
+        "id": "ui---child-window-verification;ui---verification-of-sucessfull-navigation-to-the-child-window",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Verification of Sucessfull navigation to the Child Window",
+        "name": "UI - Verification of Sucessfull navigation to the Child Window",
         "tags": [
           {
             "name": "@child",
@@ -41,7 +41,7 @@
             "name": "I navigate to the child window",
             "result": {
               "status": "passed",
-              "duration": 7949000000
+              "duration": 6612000000
             }
           }
         ]

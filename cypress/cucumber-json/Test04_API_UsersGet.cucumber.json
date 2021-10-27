@@ -1,0 +1,120 @@
+[
+  {
+    "description": "    Get Request for Users Verification",
+    "keyword": "Feature",
+    "name": "API - Get Request for Users Verification",
+    "line": 2,
+    "id": "api---get-request-for-users-verification",
+    "tags": [
+      {
+        "name": "@api",
+        "line": 1
+      },
+      {
+        "name": "@automation",
+        "line": 1
+      }
+    ],
+    "uri": "Test04_API_UsersGet.feature",
+    "elements": [
+      {
+        "id": "api---get-request-for-users-verification;api---verification-of-get-request-for-users",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "API - Verification of Get Request for Users",
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          },
+          {
+            "name": "@automation",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I created a get request for Users",
+            "result": {
+              "status": "passed",
+              "duration": 670000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I verified the status code should be \"200\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I verified \"username\" attribute to be \"Bret\" in the response",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "api---get-request-for-users-verification;api---verification-of-post-request-for-users",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "API - Verification of Post Request for Users",
+        "tags": [
+          {
+            "name": "@api",
+            "line": 1
+          },
+          {
+            "name": "@automation",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I created a Post request for Users",
+            "result": {
+              "status": "passed",
+              "duration": 1296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I verified the status code should be \"201\"",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I verified \"name\" attribute to be \"morpheus\" in the response",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

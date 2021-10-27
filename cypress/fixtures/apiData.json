@@ -1,0 +1,6 @@
+{
+    "userBaseUrl":"https://jsonplaceholder.typicode.com/",
+    "userPath":"users/1",
+    "reqresUserBaseUrl":"https://reqres.in/",
+    "reqresuserPath":"api/users"
+}

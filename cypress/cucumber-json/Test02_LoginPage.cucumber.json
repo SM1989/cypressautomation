@@ -1,10 +1,10 @@
 [
   {
-    "description": "Login Verification",
+    "description": "    Login Verification",
     "keyword": "Feature",
-    "name": "Login Page Verification",
+    "name": "UI - Login Page Verification",
     "line": 2,
-    "id": "login-page-verification",
+    "id": "ui---login-page-verification",
     "tags": [
       {
         "name": "@login",
@@ -18,10 +18,10 @@
     "uri": "Test02_LoginPage.feature",
     "elements": [
       {
-        "id": "login-page-verification;verification-of-sucessfull-login",
+        "id": "ui---login-page-verification;ui---verification-of-sucessfull-login",
         "keyword": "Scenario",
         "line": 5,
-        "name": "Verification of Sucessfull Login",
+        "name": "UI - Verification of Sucessfull Login",
         "tags": [
           {
             "name": "@login",
@@ -41,7 +41,7 @@
             "name": "I navigate to the Login page",
             "result": {
               "status": "passed",
-              "duration": 3208000000
+              "duration": 2808000000
             }
           },
           {
@@ -51,7 +51,7 @@
             "name": "I filled the login form with valid credentials",
             "result": {
               "status": "passed",
-              "duration": 3829000000
+              "duration": 3717000000
             }
           },
           {
@@ -61,7 +61,7 @@
             "name": "I verified the sucessfull login",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 41000000
             }
           },
           {
@@ -71,7 +71,7 @@
             "name": "I verified the child window",
             "result": {
               "status": "passed",
-              "duration": 66000000
+              "duration": 59000000
             }
           }
         ]
